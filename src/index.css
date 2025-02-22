@@ -1,0 +1,123 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: #333; 
+  background-color: #f0f0f0; 
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* General Styles */
+html {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f0f0f0 !important;
+  min-height: 100vh;
+}
+
+/* Header Styles */
+header {
+  color: #333; 
+  width: 100%;
+  text-align: center;
+}
+
+nav a {
+  color: #333; 
+  text-decoration: none;
+  display: inline-block;
+  margin: 0 10px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Form Styles */
+form {
+  max-width: 400px;
+  width: 100%;
+  margin: 20px 0;
+}
+
+form label {
+  display: block;
+  margin-bottom: 10px;
+  color: #333; 
+}
+
+form input {
+  width: 400px;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc; 
+}
+
+form button {
+  color: #fff; 
+  background-color: #223d59; 
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none; 
+}
+
+form button:hover {
+  background-color: #0056b3; 
+}
+
+/* Question Styles */
+h2 {
+  text-align: center;
+  width: 100%;
+  margin-top: 30px;
+  color: #333; 
+}
+
+p {
+  text-align: center;
+  width: 100%;
+  color: #333; 
+}
+
+button {
+  color: #fff; 
+  background-color: #223d59; 
+  padding: 20px;
+  margin-right: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+}
+
+button:hover {
+  background-color: #0056b3; 
+}
+
+.dogs {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.dogs img {
+  max-width: 30%;
+  border-radius: 10px;
+  align-items: center;
+}
+
+.dogs p {
+  margin: 5px 0;
+  text-align: center;
+  color: #333; 
+}
